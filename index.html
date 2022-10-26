@@ -6,48 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
-    <style>
-        html, body{
-            display: flex;
-            height: 100%;
-            flex-direction: column;
-            margin: 0%;
-
-        }
-        header{
-            display: flex;
-            background-color: black;
-            color: white;
-            height:20%;
-        }
-        .conBorde{
-            display: flex;
-            border-color: blue;
-            border: 10px solid;
-        }
-        h1{
-            background-color: blueviolet;     
-        }
-        #contenedor_principal{
-            display: flex;
-            background-color: antiquewhite;
-            color: black;
-            height:60%;
-        }
-        .pie_pagina{
-            display: flex;
-            background-color: black;
-            color: white;
-            height:20%;
-        }
-        .lateral{
-            background-color: aquamarine;
-        }
-        
-
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
-
     <body>
         <header>
             <nav><ul>
@@ -59,9 +19,13 @@
         <div id="contenedor_principal" class="contenedor">
             <section class="principal">
                 <h1 id="titulo" class="conBorde">MI pagina web</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aperiam deleniti, vitae perferendis, cumque eaque quibusdam voluptatem obcaecati ducimus distinctio, reiciendis corporis sequi voluptate commodi? Similique ipsam deleniti porro quaerat.</p>
+                <p id="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aperiam deleniti, vitae perferendis, cumque eaque quibusdam voluptatem obcaecati ducimus distinctio, reiciendis corporis sequi voluptate commodi? Similique ipsam deleniti porro quaerat.</p>
                 <!-- <img id="imagen 1" class="conBorde" src="./images/playa.jpg"alt=""> -->
                 <!-- <img id="imagen 2" style="margin-left: 50px;" src="./images/playa.jpg"alt=""> -->
+                <button>Entrar</button>
+                <input type="submit">
+                <input type="text">
+                <input type="password">
             </section>
             <aside class="lateral">
                 <ol id="lista">

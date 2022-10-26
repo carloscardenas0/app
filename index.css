@@ -1,0 +1,71 @@
+html, body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 0%;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height:20%;
+    padding-right: 40px;
+}
+.conBorde{
+    display: flex;
+    border-color: blue;
+    border: 10px solid;
+}
+h1{
+    background-color: blueviolet;     
+}
+#contenedor_principal{
+    display: flex;
+    background-color: antiquewhite;
+    color: black;
+    height:60%;
+    padding-left: 30px;
+}
+.pie_pagina{
+    display: flex;
+    background-color: black;
+    color: white;
+    height:20%;
+}
+.lateral{
+    display: flex;
+    background-color: aquamarine;
+    width: 30%;
+    justify-content: right;
+    align-items: center;
+}
+ul li{
+    display: inline;
+    margin-left: 15px;
+}
+
+ul li:hover{
+    color: greenyellow;
+}
+#parrafo{
+    text-align: justify;
+    border: 5px solid;
+    border-color: aqua;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.principal{
+    padding: 0px 30px;
+    width: 70%;
+}
+#lista{
+  list-style-type: none;  
+  padding-right: 30px;
+}
+#lista li:hover{
+    color: greenyellow;
+}
